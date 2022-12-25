@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: abhishek-kubernetes-component
+  name: Abhishek-Service
+  annotations:
+    backstage.io/kubernetes-id: Abhishek-Service
 spec:
   lifecycle: production
   owner: group:FnA
