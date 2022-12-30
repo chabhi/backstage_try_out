@@ -4,7 +4,7 @@ metadata:
   name: Abhishek-Service
   annotations:
     backstage.io/kubernetes-id: Abhishek-Service
-    grafana/tag-selector: "Abhishek-Service"
+    grafana/tag-selector: Abhishek-Service
 spec:
   lifecycle: production
   owner: group:FnA
