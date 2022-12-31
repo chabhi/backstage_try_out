@@ -5,6 +5,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: Abhishek-Service
     grafana/tag-selector: fna-heimdall-api
+    grafana/alert-label-selector: "app=fna-heimdall-api"
 spec:
   lifecycle: production
   owner: group:FnA
