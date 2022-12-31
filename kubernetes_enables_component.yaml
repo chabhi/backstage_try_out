@@ -4,7 +4,7 @@ metadata:
   name: Abhishek-Service
   annotations:
     backstage.io/kubernetes-id: Abhishek-Service
-    grafana/tag-selector: fna-heimdall-api-dashboard
+    grafana/tag-selector: fna-heimdall-api
 spec:
   lifecycle: production
   owner: group:FnA
