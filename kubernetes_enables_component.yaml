@@ -6,6 +6,9 @@ metadata:
     backstage.io/kubernetes-id: Abhishek-Service
     grafana/tag-selector: fna-heimdall-api
     grafana/alert-label-selector: "app=fna-heimdall-api"
+    jira/project-key: FNAPM
+    jira/component: fna-pub-man # optional, you might skip this value to fetch data for all components
+    jira/token-type: Bearer # optional, used for Activity stream feed. If you are using Basic auth you can skip this.
 spec:
   lifecycle: production
   owner: group:FnA
