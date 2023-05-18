@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: abhishek-kubernetes-component
+  labels:
+    backstage.io/kubernetes-id: Abhishek-Service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: abhishek-kubernetes-component
+  template:
+    metadata:
+      labels:
+        app: abhishek-kubernetes-component
+        backstage.io/kubernetes-id: Abhishek-Service
+    spec:
+      containers:
+      - name: ubuntu
+        image: ubuntu
+        command: 
+        - /bin/sh
+        args:
+        - -c
+        - "tail -f /dev/null"
